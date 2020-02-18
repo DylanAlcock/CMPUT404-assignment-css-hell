@@ -1,0 +1,23 @@
+body { margin-left: auto;
+       margin-right: auto;
+       }
+
+h1, h2 {text-align: center; 
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+}
+
+h1 {font-size: 300%;
+    margin-top: 2pt;
+    margin-bottom: 2pt;
+    letter-spacing: 1pt;
+    word-spacing: 0.5pt;
+}
+
+h2 {font-size: 150%;
+ 	margin-top: 2pt;
+ 	margin-bottom: 2pt;
+}
