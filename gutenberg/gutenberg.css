@@ -1,23 +1,44 @@
+/* Ref: https://codepen.io/efost/pen/rrjvkk */
+html {
+  background-color: #f8f5ce;
+  box-shadow: inset 0 0 70px rgba(255,210,0,0.5), inset 0 0 50px rgba(255,210,0,0.5), inset 0 0 70px rgba(220,120,0,0.8);
+  color: rgba(0,0,0,0.7);
+  letter-spacing: 0.05em;
+  line-height: 1.8;
+  padding: 5em 5em 15em 5em;
+  font-family: "Times New Roman", Times, serif;
+}
+
 body { margin-left: auto;
        margin-right: auto;
-       }
+       font-size: 12pt;
+       font-weight: normal;
+       font-family: serif;
+       letter-spacing: -0.1pt;
+}
 
 h1, h2 {text-align: center; 
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	line-height: 1.5;
 	margin-top: 2pt;
 	margin-bottom: 2pt;
 }
 
 h1 {font-size: 300%;
-    margin-top: 2pt;
-    margin-bottom: 2pt;
     letter-spacing: 1pt;
     word-spacing: 0.5pt;
 }
 
 h2 {font-size: 150%;
- 	margin-top: 2pt;
- 	margin-bottom: 2pt;
+}
+
+img {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8pt;
+	max-width: 100%;
+  	height: auto;
+  	box-shadow: -6px 12px 20px 4px rgba(0, 0, 0, 0.2)
 }
