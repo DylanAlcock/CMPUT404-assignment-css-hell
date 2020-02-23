@@ -1,16 +1,13 @@
 @charset "UTF-8";
 
-/* Here are the default styles. */
 html {
-    /* http://maxpixel.freegreatpicture.com/Wallpaper-Candy-Colorful-Background-Multi-colors-2091832 */
-    background-image: url("bad_background.jpg");
+    background-color: blue;
 }
 
-/* Add styles here: */
 body {
     padding: 10px;
     height: 100%;
-    font-family: sans-serif;
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
     color: yellow;
    	/* background: rgba(0,0,0,0.6); */
    	text-align: center;
@@ -25,7 +22,7 @@ hr {
 }
 
 .title{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Comic Sans MS', Comic Sans, cursive;
   color: #2b3030;
   text-decoration: none;
   text-transform: uppercase;
@@ -44,7 +41,7 @@ hr {
 }
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Comic Sans MS', Comic Sans, cursive;
   color: #2b3030;
   text-decoration: none;
   font-weight: 600;
@@ -69,6 +66,7 @@ https://www.w3schools.com/css/css_navbar.asp */
     color: white;
     text-align: center;
     display: inline-block;
+    background-color: yellow;
 }
 
 .menu a {
@@ -81,6 +79,10 @@ https://www.w3schools.com/css/css_navbar.asp */
     opacity: 0.8;
     margin-left: 5px;
     margin-right: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2pt;
+
 }
 
 .menu a:hover {
@@ -113,9 +115,9 @@ li {
   position: fixed;
   top: 0px;
   left: 0;
-  background: rgba(255, 255, 255, .7);
+  background: yellow;
   margin: 3px;
-  color: purple;
+  color: blue;
   height: 97%;
   line-height: 30px;
   text-align: left;
@@ -133,12 +135,12 @@ footer {
 }
 
 .Imp {
-  font-family: 'Open Sans', sans-serif;
-  color: #0c4408;
+  font-family: 'Comic Sans MS', Comic Sans, cursive;
+  color: blue;
   text-decoration: none;
   font-weight: 600;
   line-height: 1;
-  text-shadow: #68625e 1px 1px 0;
+  text-shadow: #68625e 10px 10px 0;
 }
 
 .paragraphs {
